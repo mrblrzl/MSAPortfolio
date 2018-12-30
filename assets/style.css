@@ -8,7 +8,7 @@ body, html {
 }
       
 .image1, .image2, .image3  {
-  position: relative;
+  /* position: relative; */
   opacity: 0.75;
   background-position: center;
   background-size: cover;
@@ -16,12 +16,12 @@ body, html {
 
 .image1 {
   background-image: url("./desk.jpg");
-  min-height: 100%;
+  min-height: 70%;
 }
       
 .image2 {
-  background-image: url("./group.jpg");
-  min-height: 400px;
+  /* background-image: url("./travel.jpg"); */
+  /* min-height: 300px; */
 }
       
 .image3 {
@@ -55,6 +55,11 @@ h3 {
   color:#fff;
 }
 
+h6 {
+  text-align: center;
+}
+
+
 /* Font awesome icons */
 .fab, .far {
   padding: 20px;
@@ -74,7 +79,7 @@ h3 {
 }
 
 .jumbotron {
-  background-image: url("./minimal.jpg"); 
+  background-image: url("./p_minimal.jpg"); 
   min-height: 35%;
   background-position: center;
   background-size: cover;
@@ -91,3 +96,9 @@ h3 {
   margin-left: auto;
   padding-top: 10px;
 }
+
+/* #col-vertical{
+  margin: 0;
+  padding: 0;
+  border: 0;
+} */
